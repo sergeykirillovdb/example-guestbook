@@ -13,7 +13,7 @@ services:
           memory: 125M
 
   guestbook:
-    build: .
+    image: gcr.io/uffizzi-pro-qa-gke/e1514r3308-1dbe974feb:7bdc8b8e557b3884611a86c9cc4bc5252c223586
     environment:
       REDIS_HOST: localhost
     deploy:
